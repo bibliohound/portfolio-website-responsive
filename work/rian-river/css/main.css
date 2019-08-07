@@ -1,0 +1,157 @@
+/*****BASE STYLES*****/
+
+body {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+h4, p {
+  font-size: 24px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*****GRID STYLES*****/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.left {
+  padding: 0 25px 0 50px;
+}
+
+.middle {
+  padding: 0 25px 0 25px;
+}
+
+.right {
+  padding: 0 50px 0 25px;
+}
+
+/*****HEADER STYLES*****/
+
+#header {
+  height: 800px;
+}
+
+h1 {
+  clear: both;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 64px;
+  padding-top: 150px;
+}
+
+h2 {
+  font-size: 48px;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+
+nav {
+  float: right;
+  font-size: 24px;
+  padding-top: 75px;
+  text-transform: uppercase;
+  word-spacing: 25px;
+}
+
+nav ul li a {
+  color: #ff654a;
+  font-weight: bold;
+}
+
+.emphasis {
+  color: #ff654a;
+}
+
+
+/*****ABOUT STYLES*****/
+
+#about {
+  background: #ff654a;
+  color: white;
+  height: 1000px;
+  text-align: center;
+}
+
+#about img {
+  padding: 45px 0 0 0;
+}
+
+#about h3 {
+  padding-top: 140px;
+}
+
+#about p {
+  padding: 0 400px 0 400px;
+}
+
+/*****PORTFOLIO STYLES*****/
+
+#portfolio {
+  height: 900px;
+}
+
+#portfolio h3 {
+  padding-top: 140px;
+  padding-bottom: 115px;
+}
+
+#portfolio h4, p {
+  padding-right: 50px;
+  text-align: center;
+}
+
+#portfolio a {
+  color: black;
+}
+
+/*****CONTACT STYLES*****/
+
+#contact {
+  background: #ff654a;
+  color: white;
+  height: 650px;
+}
+
+#contact h3 {
+  padding: 140px 0 70px 0;
+}
+
+#contact h4 {
+  padding: 0 125px;
+}
+
+#contact p {
+  line-height: 50%;
+}
+
+#contact a {
+  color: white;
+}
+
+#contact ul li {
+  padding: 0 25px 0 25px;
+}
+
+ 
