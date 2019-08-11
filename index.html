@@ -11,10 +11,13 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
+  <!--GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
@@ -40,17 +43,16 @@
 
 <!--MAIN SECTION-->
 <main>
-<div class="content-wrapper">
 
-<!--HERO SECTION-->
-  <section id="tagline">
+<!--HERO AND TAGLINE SECTION-->
+  <section id="tagline" class="tagline">
     <div class="content-wrapper">
         <h1>let's <span class="emphasis">create</span> something cool</h1>
     </div> <!--HERO CONTENT WRAPPER ENDS-->
   </section>
 
 <!--ABOUT SECTION-->
-  <section id="about">
+  <section id="about" class="about">
     <div class="content-wrapper">
         <h2>about me</h2>
         <div>
@@ -60,26 +62,27 @@
       </div>
     </div> <!--ABOUT CONTENT WRAPPER ENDS-->
   </section>
-</div> <!--MAIN CONTENT WRAPPER ENDS-->
 </main>
 
 <!--FOOTER SECTION-->
 <footer id="contact">
   <div class="content-wrapper">
-    <div class="footer-content">
-      <address class="contact">
         <h2>contact</h2>
+
+      <address class="contact">
         <h3>Hire Me</h3>
         <p>Remote or Savannah, Georgia</p>
         <p>912.398.1221</p>
-          <p><a href="mailto:nbethburnett@gmail.com">nbethburnett [@] gmail.com</a>
+        <p><a href="mailto:nbethburnett@gmail.com">nbethburnett [@] gmail.com</a>
       </address>
+
       <div class="social">
         <h3>Follow Me</h3>
-        <p><a href="https://github.com/bibliohound" target="_blank"><img src="img/github-icon.png" alt="GitHub Icon"/></a></p>
-        <p><a href="https://www.linkedin.com/in/beth-burnett-5867603/" target="_blank"><img src="img/linkedin-icon.png" alt="LinkedIn Icon"/></a></p>
+        <div class="social-icons">
+          <p><a href="https://github.com/bibliohound" target="_blank"><img src="img/github.jpg" alt="GitHub Icon"/></a></p>
+          <p><a href="https://www.linkedin.com/in/beth-burnett-5867603/" target="_blank"><img src="img/linkedin.jpg" alt="LinkedIn Icon"/></a></p>
+        </div>
       </div>
-    </div>
   </div> <!--FOOTER CONTENT WRAPPER ENDS-->
   <div class="copyright">
     <p>copyright 2019 | beth burnett</p>
@@ -88,11 +91,11 @@
 
 
 
-  <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

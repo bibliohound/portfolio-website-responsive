@@ -98,6 +98,201 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*-------------------------GENERAL STYLES----------------------------------*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+  color: #08fdd8;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  font-size: 1.875em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.125em;
+  text-align: center;
+}
+
+p {
+
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 0;
+}
+
+
+/*------------------------HOMEPAGE STYLES----------------------------------*/
+
+
+/*Base Header & Footer Styles*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*Header Styles*/
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+
+header h2 {
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 20px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+/*Hero & Tagline Styles*/
+
+ .tagline {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row nowrap;
+ }
+
+ .emphasis {
+   color: #08fdd8;
+ }
+
+/*About Styles*/
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about p {
+   color: #1f202b;
+}
+
+/*Footer Styles*/
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+footer p {
+  display: flex;
+  font-style: normal;
+}
+
+footer a {
+  display: flex;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+.social-icons img {
+  width: 80%
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---------------------------PORTFOLIO WORK STYLES------------------------*/
+
+/*Portfolio Styles*/
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -187,16 +382,52 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media screen and (min-width: 768px) {
+  /*------------------------TABLET STYLES------------------------------------*/
+
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media screen and (min-width: 1200px) {
+  /*------------------------DESKTOP STYLES----------------------------------*/
+
+  /*General Styles*/
+
+  h2,
+  h3 {
+  font-size: 2.25em;
 }
+
+ /*Header Styles*/
+
+ header h2 {
+   font-size: 1.875em;
+   width: 50%;
+ }
+
+ header nav {
+   font-size: 1.875em;
+ }
+
+ header nav ul {
+   flex-flow: row nowrap;
+ }
+
+/*Hero Area Styles*/
+
+h1 {
+  font-size: 4.5em;
+  width: 60%;
+}
+
+/*Footer Styles*/
+
+footer p {
+  font-size: 1.5em;
+}
+
+}
+
 
 /* ==========================================================================
    Print styles.
@@ -263,4 +494,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
