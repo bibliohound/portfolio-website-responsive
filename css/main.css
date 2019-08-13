@@ -132,6 +132,7 @@ h2 {
   text-align: center;
   margin: 0;
   font-size: 1.875em;
+  width: 100%;
 }
 
 h3 {
@@ -392,6 +393,41 @@ article {
 @media screen and (min-width: 768px) {
   /*------------------------TABLET STYLES------------------------------------*/
 
+/*Homepage Styles*/
+
+h1 {
+  width: 45%;
+}
+
+.about p {
+  width: 50%;
+}
+
+footer .content-wrapper {
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.contact {
+  margin-top: 30px;
+}
+
+/*Portfolio Page Styles*/
+
+.portfolio .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+article {
+  flex-flow: column wrap;
+}
+
+article p {
+  width: 80%;
+}
 
 }
 
