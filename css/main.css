@@ -105,6 +105,8 @@ html {
 }
 
 body {
+  background: #1f202b;
+  color: white;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   text-align: left;
@@ -118,6 +120,7 @@ ol {
 }
 
 a {
+  color: white;
   text-decoration: none;
 }
 
@@ -263,11 +266,8 @@ footer .content-wrapper {
   flex-flow: column wrap;
 }
 
-footer .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
+footer h3 {
+  font-style: normal;
 }
 
 footer p {
@@ -276,15 +276,20 @@ footer p {
   margin: 0;
 }
 
-footer a {
+footer .social-icons p {
+  background-color: #08fdd8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-flow: row nowrap;
 }
 
 .social-icons img {
