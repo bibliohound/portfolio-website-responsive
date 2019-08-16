@@ -122,8 +122,12 @@ a {
 }
 
 h1 {
+    color: white;
+    font-size: 2.5em;
     font-family: 'Source Code Pro', monospace;
     margin: 0;
+    padding: 50px 0 100px 0;
+    width: 50%;
 }
 
 h2 {
@@ -137,6 +141,7 @@ h2 {
 
 h3 {
   font-size: 1.125em;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -146,6 +151,10 @@ p {
 
 img {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 figure {
@@ -218,6 +227,8 @@ header nav ul {
    justify-content: center;
    align-items: center;
    flex-flow: row nowrap;
+   background: url('../img/hero-background.jpg') center no-repeat;
+   background-size: cover;
  }
 
  .emphasis {
@@ -231,10 +242,16 @@ header nav ul {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: url('../img/about-me.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .about p {
    color: #1f202b;
+}
+
+.about-text {
+  padding: 25px 0 100px 0;
 }
 
 /*Footer Styles*/
@@ -300,6 +317,13 @@ article {
   flex-flow: row wrap;
 }
 
+
+.portfolio-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
 
 /* ==========================================================================
    Helper classes
@@ -397,6 +421,7 @@ article {
 
 h1 {
   width: 45%;
+  padding: 125px 0 175px 0;
 }
 
 .about p {
@@ -436,13 +461,20 @@ article p {
 
   /*General Styles*/
 
-  h2,
-  h3 {
+h2 {
   font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 p {
   font-size: 1.5em;
+}
+
+.copyright {
+  font-size: 1.125em;
 }
 
  /*Header Styles*/
@@ -471,6 +503,7 @@ header .content-wrapper {
 h1 {
   font-size: 4.5em;
   width: 60%;
+  padding: 225px 0 275px 0
 }
 
 /*Footer Styles*/
@@ -481,17 +514,35 @@ footer p {
 
 /*Portfolio Page Styles*/
 
+
 article {
   flex-flow: row nowrap;
   justify-content: space-between;
+  margin: 50px 0;
+}
+
+figure {
+  width: 50%;
+}
+
+.portfolio-text {
+  width: 50%;
 }
 
 #unplugged {
 
 }
 
-#unplugged figure {
-  order: -1;
+#rogue figure {
+  order: 1;
+}
+
+#jubilee {
+
+}
+
+#rian figure {
+  order: 1;
 }
 
 }
