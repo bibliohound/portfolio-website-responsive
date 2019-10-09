@@ -610,20 +610,24 @@ figure {
   width: 50%;
 }
 
-#unplugged {
+#unplugged figure {
 
+}
+
+#lolcat figure {
+  order: 1;
 }
 
 #rogue figure {
-  order: 1;
+
 }
 
-#jubilee {
-
+#jubilee figure {
+  order: 1;
 }
 
 #rian figure {
-  order: 1;
+  
 }
 
 }
