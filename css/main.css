@@ -610,11 +610,19 @@ figure {
   width: 50%;
 }
 
-#unplugged figure {
+#election figure {
 
 }
 
+#magic figure {
+  order: 1;
+}
+
 #lolcat figure {
+
+}
+
+#unplugged figure {
   order: 1;
 }
 
@@ -627,9 +635,8 @@ figure {
 }
 
 #rian figure {
-  
-}
 
+}
 }
 
 
